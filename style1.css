@@ -1,0 +1,117 @@
+*{margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;}
+body{
+    width:100%;
+    overflow-x: hidden;
+    text-align:center;
+    align-items:center;
+    color:#0dc5f4;
+}
+header{background:#1b1b1b;
+color:skyblue;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+text-align:left;
+color:rgb(32, 186, 252);
+}
+header nav{display:flex;
+    float:right;
+}
+header.logo{font-size:20px;
+font-weight:bold;}
+header nav a{
+    color:white;
+    text-decoration:round;
+    margin-left:20px;
+    font-size:14px;
+    
+}
+header nav a:hover{
+    color:#5fd3d3;
+    
+}
+.hero{
+    width:100%;
+    height:300px;
+    display:flex;
+    background: linear-gradient(to right,#5fd3d3,#2aa5a5);
+    text-align:center;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    text-align:right;
+    
+}
+.hero-content{
+    text-align: center;
+}
+.hero h1{
+    font-size:28px;
+    margin-bottom:10px
+}
+.hero p{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.services{
+    background: #f7f7f7;
+    min-height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    padding: 60px 30px;
+    }
+.services h2{
+    color:#5fd3d3;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.services p{
+    color:#777;
+    max-width:600px;
+    margin:0 auto 20px;
+}
+.services button{
+    background: #5fd3d3;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor:pointer;
+    border-radius:3px;
+}
+.services button:hover{
+    background:#2aa5a5;
+}
+body{
+    width:100%;
+}
+.hero-text h1{
+    font-size:28px;
+    margin-bottom:10px;
+}
+.hero-text p{
+    font-size:14px;
+    opacity:0.9;
+}
+.arrow{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    background:rgba(255,255,255,0.3);
+    padding:10px 15px;
+    border-radius:50%;
+    cursor:pointer;
+}
+.arrow.left{
+    left:30px;
+}
+.arrow.right{
+    right:30px;
+}
